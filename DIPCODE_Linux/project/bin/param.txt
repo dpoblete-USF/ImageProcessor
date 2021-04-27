@@ -1,0 +1,47 @@
+11.jpg 11_stretch.jpg opencv histostretch full
+11.ppm 11_stretch.pgm opencv histostretch full
+slope.pgm slope_stretch.pgm opencv histostretch full
+11.jpg 11_equal_roi.jpg opencv histoequal roi_histoequal.txt
+11.ppm 11_equal_full.ppm opencv histoequal full
+slope.pgm slope_equal_roi.pgm opencv histoequal roi_histoequal.txt
+slope.pgm slope_equal_full.pgm opencv histoequal full
+11.jpg 11_v.jpg opencv histoV full
+11.ppm 11_v.ppm opencv histoV full
+slope.pgm slope_v.pgm opencv histoV full
+11.jpg 11_roi.jpg opencv histoV roi_histoequal.txt
+11.ppm 11_roi.ppm opencv histoV roi_histoequal.txt
+slope.pgm slope_roi.pgm opencv histoV roi_histoequal.txt
+slope.pgm slope_HSVtestV.pgm opencv histoHSV V
+slope.pgm slope_HSVtestS.pgm opencv histoHSV S
+slope.pgm slope_HSVtestH.pgm opencv histoHSV H
+11.ppm 11_HSVtestV.ppm opencv histoHSV V
+11.ppm 11_HSVtestS.ppm opencv histoHSV S
+11.ppm 11_HSVtestH.ppm opencv histoHSV H
+11.ppm 11_HSVtestHS.ppm opencv histoHSV HS
+11.ppm 11_HSVtestHV.ppm opencv histoHSV HV
+11.ppm 11_HSVtestSV.ppm opencv histoHSV SV
+11.ppm 11_HSVtestHSV.ppm opencv histoHSV HSV
+11.jpg 11_HSVtestV.jpg opencv histoHSV V
+slope.pgm slope_HSVtext.pgm opencv histoHSV H
+slope.pgm slope_intermediate.pgm opencv histoHSV roi_ocv_hsv.txt
+11.ppm 11_hsv_roi.ppm opencv histoHSV roi_ocv_hsv.txt
+baboon.pgm baboon_histosobel_3.pgm opencv histosobel 3 100
+baboon.pgm baboon_histosobel_roi.pgm opencv histosobel roi_histosobel.txt
+11.ppm 11_histosobel_3.ppm opencv histosobel 3 100
+11.ppm 11_histosobel_roi.ppm opencv histosobel roi_histosobel.txt
+11.jpg 11_histosobel_3.jpg opencv histosobel 3 100
+11.jpg 11_histosobel_roi.jpg opencv histosobel roi_histosobel.txt
+baboon.pgm baboon_histocanny_full.pgm opencv histocanny 45 255 3
+baboon.pgm baboon_histocanny_roi.pgm opencv histocanny roi_histocanny.txt
+11.ppm 11_histocanny_full.ppm opencv histocanny 45 255 3
+11.ppm 11_histocanny_roi.ppm opencv histocanny roi_histocanny.txt
+11.jpg 11_histocanny_full.jpg opencv histocanny 45 255 3
+11.jpg 11_histocanny_roi.jpg opencv histocanny roi_histocanny.txt
+frame.png frame_read.png opencv readQR
+frame.png frame_eql.png opencv equalQR
+QR.jpg QR_read.jpg opencv readQR
+QR.jpg QR_eql.jpg opencv equalQR
+QR4.jpg QR4_read.jpg opencv readQR
+QR4.jpg QR4_eql.jpg opencv equalQR
+QR5.jpg QR5_read.jpg opencv readQR
+QR5.jpg QR5_eql.jpg opencv equalQR

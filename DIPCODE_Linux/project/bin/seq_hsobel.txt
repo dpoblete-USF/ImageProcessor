@@ -1,0 +1,1 @@
+11.ppm 11_histosobel_3.ppm opencv histosobel 3 100

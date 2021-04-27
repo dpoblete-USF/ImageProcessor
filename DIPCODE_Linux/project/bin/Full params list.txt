@@ -1,0 +1,108 @@
+baboon.pgm baboon_bi125.pgm binarize 125
+baboon.pgm baboon_filebi.pgm binarize roi_bi.txt
+baboon.pgm baboon_add50.pgm add 50
+baboon.pgm baboon_fileadd.pgm add roi_add.txt
+baboon.pgm baboon_s200.pgm scale 2
+baboon.pgm baboon_s50.pgm scale 0.5
+baboon.pgm baboon_cthresh100.pgm cthresh 100 50 30
+baboon.pgm baboon_filecthresh.pgm cthresh roi_cth.txt
+baboon.pgm baboon_dblth.ppm doublethresh 100 200
+baboon.pgm baboon_filedbl.ppm doublethresh roi_dbl.txt
+baboon.pgm baboon_cmod.ppm colormod 50 50 50
+baboon.pgm baboon_filecmod.ppm colormod roi_cmod.txt
+casablanca.pgm casablanca_cmod.ppm colormod 200 -50 30
+casablanca.pgm casablanca_filedbl.ppm doublethresh roi_casadbl.txt
+casablanca.pgm casablanca_filecthresh.pgm cthresh roi_cth.txt
+slope.pgm slope_combostretch.pgm combostretch 100
+slope.pgm slope_ROI_combostretch.pgm combostretch roi_combostretch.txt
+slope.pgm slope_stretch.pgm histostretch 100 200
+slope.pgm slope_ROI_stretch.pgm histostretch roi_stretch.txt
+plant.ppm plant_RGBstretch.ppm RGBstretch 50 150
+plant.ppm plant_ROI_RGBstretch.ppm RGBstretch roi_RGBstretch.txt
+plant.ppm plant_HSIstretch.ppm HSIstretch 50 150
+plant.ppm plant_ROI_HSIstretch.ppm HSIstretch roi_HSIstretch.txt
+plant.ppm plant_EX1.ppm EX1-HSI 50 100 20 40
+plant.ppm plant_ROI_EX1.ppm EX1-HSI roi_EX1.txt
+plant.ppm plant_EX2.ppm EX2-HSI 50 100 20 40 100 200
+plant.ppm plant_ROI_EX2.ppm EX2-HSI roi_EX2.txt
+cat.ppm cat_RGBstretch.ppm RGBstretch 50 150
+cat.ppm cat_HSIstretch.ppm HSIstretch 50 150
+cat2.ppm cat2_RGBstretch.ppm RGBstretch 50 150
+cat2.ppm cat2_HSIstretch.ppm HSIstretch 50 150
+tree.pgm tree_sobel3.pgm sobel 3 50 45 10
+tree.pgm tree_sobel5.pgm sobel 5 50 45 10
+tree.pgm tree_sobelROI.pgm sobel roi_sobel.txt
+tree.pgm tree_HSISobel.pgm sobelhsi 3 50 45 10
+tree.pgm tree_roihsisobel.pgm sobelhsi roi_hsisobel.txt
+11.ppm 11_sobel3.ppm sobel 3 50 45 10
+11.ppm 11_sobelROI.ppm sobel roi_sobel.txt
+11.ppm 11_HSISobel.ppm sobelhsi 3 50 45 10
+wheelg.pgm wheelg_sobel.pgm sobel 3 10 45 10
+wheelg.pgm wheelg_sobel2.pgm sobel 3 10 135 10
+wheelg.pgm wheelg_sobel_roi.pgm sobel roi_sobel.txt
+cat.ppm cat_sobel3.ppm sobel 3 50 45 10
+cat.ppm cat_sobel5.ppm sobel 5 50 45 10
+cat.ppm cat_sobelROI.ppm sobel roi_sobel.txt
+cat.ppm cat_HSISobel.ppm sobelhsi 3 50 45 10
+cat.ppm cat_HSISobelROI.ppm sobelhsi roi_hsisobel.txt
+cat2.ppm cat2_sobel3.ppm sobel 3 50 45 10
+cat2.ppm cat2_sobel5.ppm sobel 5 50 45 10
+cat2.ppm cat2_sobelROI.ppm sobel roi_sobel.txt
+cat2.ppm cat2_HSISobel.ppm sobelhsi 3 50 45 10
+cat2.ppm cat2_HSISobelROI.ppm sobelhsi roi_hsisobel.txt
+11.ppm 11_roisobelocv.ppm opencv sobel roi_sobel.txt
+11.ppm 11_sobelocv.ppm opencv sobel 3 10 45 10
+wheelg.pgm wheelg_sobelocv.pgm opencv sobel 3 10 45 10
+wheelg.pgm wheelg_sobelocv.pgm opencv sobelhsv 3 10 45 10
+wheelg.pgm wheelg_roisobelocv.pgm opencv sobel roi_sobel.txt
+11.ppm 11_roisobelhsvocv.ppm opencv sobelhsv roi_sobel.txt
+wheelg.pgm wheelg_canny3ocv.pgm opencv canny 60 180 3
+wheelg.pgm wheelg_canny5ocv.pgm opencv canny 60 180 5
+11.ppm 11_canny3ocv.ppm opencv canny 60 180 3
+11.ppm 11_canny5ocv.ppm opencv canny 60 180 5
+11.ppm 11_roicannyocv.ppm opencv canny roi_canny.txt
+wheelg.pgm wheelg_roicannyocv.pgm opencv canny roi_canny.txt
+11.jpg 11_equal_roi.jpg opencv histoequal roi_histoequal.txt
+11.ppm 11_equal_full.ppm opencv histoequal full
+slope.pgm slope_equal_roi.pgm opencv histoequal roi_histoequal.txt
+slope.pgm slope_equal_full.pgm opencv histoequal full
+11.jpg 11_v.jpg opencv histoV full
+11.ppm 11_v.ppm opencv histoV full
+slope.pgm slope_v.pgm opencv histoV full
+11.jpg 11_roi.jpg opencv histoV roi_histoequal.txt
+11.ppm 11_roi.ppm opencv histoV roi_histoequal.txt
+slope.pgm slope_roi.pgm opencv histoV roi_histoequal.txt
+slope.pgm slope_HSVtestV.pgm opencv histoHSV V
+slope.pgm slope_HSVtestS.pgm opencv histoHSV S
+slope.pgm slope_HSVtestH.pgm opencv histoHSV H
+11.ppm 11_HSVtestV.ppm opencv histoHSV V
+11.ppm 11_HSVtestS.ppm opencv histoHSV S
+11.ppm 11_HSVtestH.ppm opencv histoHSV H
+11.ppm 11_HSVtestHS.ppm opencv histoHSV HS
+11.ppm 11_HSVtestHV.ppm opencv histoHSV HV
+11.ppm 11_HSVtestSV.ppm opencv histoHSV SV
+11.ppm 11_HSVtestHSV.ppm opencv histoHSV HSV
+11.jpg 11_HSVtestV.jpg opencv histoHSV V
+slope.pgm slope_HSVtext.pgm opencv histoHSV H
+slope.pgm slope_intermediate.pgm opencv histoHSV roi_ocv_hsv.txt
+11.ppm 11_hsv_roi.ppm opencv histoHSV roi_ocv_hsv.txt
+baboon.pgm baboon_histosobel_3.pgm opencv histosobel 3 100
+baboon.pgm baboon_histosobel_roi.pgm opencv histosobel roi_histosobel.txt
+11.ppm 11_histosobel_3.ppm opencv histosobel 3 100
+11.ppm 11_histosobel_roi.ppm opencv histosobel roi_histosobel.txt
+11.jpg 11_histosobel_3.jpg opencv histosobel 3 100
+11.jpg 11_histosobel_roi.jpg opencv histosobel roi_histosobel.txt
+baboon.pgm baboon_histocanny_full.pgm opencv histocanny 45 255 3
+baboon.pgm baboon_histocanny_roi.pgm opencv histocanny roi_histocanny.txt
+11.ppm 11_histocanny_full.ppm opencv histocanny 45 255 3
+11.ppm 11_histocanny_roi.ppm opencv histocanny roi_histocanny.txt
+11.jpg 11_histocanny_full.jpg opencv histocanny 45 255 3
+11.jpg 11_histocanny_roi.jpg opencv histocanny roi_histocanny.txt
+frame.png frame_read.png opencv readQR
+frame.png frame_eql.png opencv equalQR
+QR.jpg QR_read.jpg opencv readQR
+QR.jpg QR_eql.jpg opencv equalQR
+QR4.jpg QR4_read.jpg opencv readQR
+QR4.jpg QR4_eql.jpg opencv equalQR
+QR5.jpg QR5_read.jpg opencv readQR
+QR5.jpg QR5_eql.jpg opencv equalQR

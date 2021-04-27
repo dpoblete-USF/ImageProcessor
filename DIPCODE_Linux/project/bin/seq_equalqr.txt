@@ -1,0 +1,1 @@
+QR4.jpg QR4_eql.jpg opencv equalQR
